@@ -94,7 +94,7 @@ class S6 {
             assertTrue(stringResourceFile.exists(), "strings.xmlが見つかりません。")
             assertTrue(
                 stringResourceFile.containsOnAnyLine(">$displayedText<"),
-                "strings.xmlにTextViewで表示されているテキストが定義されていません。"
+                "strings.xmlにTextViewで表示されているテキストが定義されていません。 $displayedText"
             )
         }
         jaLocaleScenario.close()
