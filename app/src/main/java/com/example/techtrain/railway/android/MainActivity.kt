@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.textview.text = getString(R.string.text)
+        binding.textview.text = getString(R.string.textview)
 //        findViewById<TextView>(R.id.text).text = "Hello!"
     }
 }
