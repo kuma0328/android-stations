@@ -15,9 +15,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
-        binding.textview.text = getString(R.string.textview)
+        setContentView(binding.root)
+        binding.textview.text = getString(R.string.text)
 //        findViewById<TextView>(R.id.text).text = "Hello!"
     }
 }

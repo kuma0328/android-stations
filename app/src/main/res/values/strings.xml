@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Railway</string>
-    <string name="textview">hello world</string>
+    <string name="text">hello world</string>
 </resources>
